@@ -14,4 +14,5 @@ def toit2(x,y_sol,niveau):
     xd = x - 180
     xf = x + 180
     y = y_sol + (60 * niveau)
+    down()
     trait(xd,y,xf,y, 10)
