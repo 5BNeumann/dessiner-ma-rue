@@ -7,6 +7,7 @@ from turtle import *
 from rectangle import rectangle
 
 def facade(x, y_sol, couleur, niveau) :
+    colormode(255)
     fillcolor(couleur)
     begin_fill()
     rectangle(x,y_sol+60*niveau,140,60)
