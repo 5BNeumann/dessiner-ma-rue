@@ -14,5 +14,5 @@ def fenetre(x,y):
     fillcolor(196,214,215)
     begin_fill()
     down()
-    rectangle(x,y+25,30,30)
+    rectangle(x,y+20,30,30)
     end_fill()
