@@ -7,7 +7,8 @@ from turtle import *
 from trait import *
 
 def porte(x,y,w,h,couleur) :
-    color("Black")
+    colormode(255)
+    color((0,0,0))
     fillcolor(couleur)
     begin_fill()
     setheading(90)
